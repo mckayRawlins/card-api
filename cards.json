@@ -28,7 +28,7 @@
     "cardNumber": 3,
     "type": "Spell",
     "rarity": "Rare",
-    "cost": "7"
+    "cost": 7
   },
   {
     "id": 4,
@@ -1279,21 +1279,5 @@
     "toughness": 2500,
     "rarity": "Common",
     "cost": 3
-  },
-  {
-    "id": 127,
-    "name": "asdfd Magus",
-    "set": "Base Set",
-    "cardNumber": 1,
-    "type": "Creature",
-    "power": 3000,
-    "toughness": 2500,
-    "rarity": "Common",
-    "cost": 3
-  },
-  {
-    "id": 128,
-    "type": "Spell",
-    "name": "Scary Hello"
   }
 ]

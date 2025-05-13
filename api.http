@@ -1,6 +1,28 @@
-PUT http://localhost:3000/card/3
+PUT http://localhost:3000/update/3
 Content-Type: application/json
 
 {
-    "cost": 4
+    "cost": 8
 }
+
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "userId": "puppeteer",
+    "password": "odysseus<3"
+}
+
+###
+
+GET http://localhost:3000/create?cost=5
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJwdXBwZXRlZXIiLCJpYXQiOjE3NDcxNjgzMDAsImV4cCI6MTc0NzE2ODM2MH0.zcVXQJj8naTWVWbkSpZorbGtcqkpqA45Z5C1RPQGDIA
+
+###
+
+DELETE http://localhost:3000/delete/127
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJwdXBwZXRlZXIiLCJpYXQiOjE3NDcxNjgzOTgsImV4cCI6MTc0NzE2ODQ1OH0.77UMShodM-bi5sc3_Ww0rwFHJA3ubjRoTGZyxvAXpYo
